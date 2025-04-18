@@ -1,4 +1,12 @@
 # requirements.txt
+# Instructions système à exécuter avant l'installation de l'environnement Python :
+# sudo apt update && sudo apt upgrade -y
+# sudo apt install python3 python3-pip python3-venv -y
+# Ensuite, installez les dépendances Python avec :
+# pip install dnspython
+
 # Listez ici vos dépendances Python pour votre application
 Flask==2.0.1
+Werkzeug==2.0.3
 gunicorn==20.1.0
+dnspython
