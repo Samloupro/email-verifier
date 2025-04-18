@@ -1,0 +1,4 @@
+# requirements.txt
+# Listez ici vos dépendances Python pour votre application
+Flask==2.0.1
+gunicorn==20.1.0
